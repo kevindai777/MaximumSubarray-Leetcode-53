@@ -4,8 +4,8 @@
 let nums = [-2,1,-3,4,-1,2,1,-5,4]
 
 
-//O(n) solution that updates the current max w/ each element and 
-//the total max that updates w/ the whole array.
+//O(n) solution that has a current max that updates w/ each element and 
+//a total max that updates w/ the whole array.
 
 let currMax = nums[0]
 let endMax = nums[0]
